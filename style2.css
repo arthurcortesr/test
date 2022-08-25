@@ -1,0 +1,607 @@
+/****Limpando os padrões do body  ****/
+*{
+  padding: 0%;
+  margin: 0%;
+}
+html{
+  font-size: 62.5%;
+}
+
+/****Limpando os padrões do body  ****/
+
+
+@font-face {
+  font-family: Nexa;
+  src: url("../fonts/Nexa-XBold.ttf");
+}
+@font-face {
+  font-family: NexaLight;
+  src: url("../fonts/NexaDemo-Light.otf");
+}
+
+section {
+  min-width: 1280px;
+  background: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0;
+  width: 100%;
+}
+/**************** header/navbar ******/
+
+section#navbar{
+  font-size: 1.4rem;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  overflow:  hidden;
+  background-color: #2300c0e1;
+  padding: 5px 0;
+  
+  
+  
+}
+nav{
+  display: flex;
+  padding: 1px 0;
+  opacity: 0.8;
+}
+nav logo{
+  font-size: 1.6rem;
+  font-family: "Nexa";
+  color: white;
+  margin: auto 10px auto 150px;
+  font-weight: 500px;
+}
+nav li{
+  padding: 10px 0;
+  font-family: "Nexa";
+  color: white;
+  float: left;
+  list-style: none;
+  margin-left: 120px;
+}
+div.contatotopo{
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Nexa";
+  margin-left: 280px;
+  color: #6426dd;
+  width: 120px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  
+}
+
+/********** Primeira Parte ******/
+
+section#IntroSite {
+  
+  background-image: url(../assets/BG_Foto_Principal.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding-top: 100px;
+  width: 100%;
+}
+article.PrimeiraParte{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  
+}
+
+div.PrimeiraParteIMG img{
+  width: 100%;
+  
+}
+article.PrimeiraParte div {
+  font-size:40px;
+  float:right;
+  width:50%;
+  
+  
+}
+
+div.primeirapartetexto h1{
+  font-family: "Nexa";
+  font-size: 4rem;
+  color:white;
+  font-weight: 500px;
+  text-align: left;
+  margin-left: 5.3cm;
+  margin-top: 50px;
+  width: 100%;
+}
+div.primeirapartetexto p{
+  font-family: "Nexa";
+  align-items: center;
+  font-size: 1.6rem;
+  margin-left: 5.3cm;
+  height: 74px;
+  opacity: 0.8;
+  color: #ffffff;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 42.16px;
+  text-align: left;
+  /* Text style for "Pediatria" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+div.primeirapartetexto button{
+  font-size: 1.2rem;
+  font-family: "Nexa";
+  width: 180px;
+  color: #ffffff;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #ff0000;
+  border-color: transparent;
+  margin-left: 5.3cm;
+}
+div.primeirapartetexto button:hover{
+  color: #d6d5d5;
+  background-color: #b80000;
+  border-color: transparent;
+}
+
+/********** Segunda Parte ******/
+section#Imagens {
+  background-color: white;
+  background-size:cover;
+  display: inline-block;
+}
+article.SegundaParte{
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+article.SegundaParte div {
+  font-size:4.0rem;
+  float:left;
+  width:50%;
+  
+  
+}
+
+div.SegundaParteIMG img {
+  width:100%;
+}
+div.SegundaParteImagem h1{
+  font-family: "Nexa";
+  font-size: 4rem;
+  font-weight: 500px;
+  text-align: left;
+  margin-left: 3.3cm;
+  color: #25234d;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 66px;
+  text-align: left;
+/* Text style for "Acompanhe" */
+font-style: normal;
+letter-spacing: -3.19px;
+line-height: normal;
+  
+}
+div.SegundaParteTexto p{
+  font-family: "Nexa";
+  font-size: 2.5rem;
+  color:purple;
+  font-weight: 500px;
+  text-align: left;
+  margin-left: 3.3cm;
+  letter-spacing: -1.5px;
+  
+}
+article.SegundaParte div {
+  font-size:4.0rem;
+  float:left;
+  width:50%;
+  
+  
+}
+
+div.SegundaParteIMG img {
+  width:100%;
+}
+div.SegundaParteImagem {
+  font-family: "Nexa";
+  color: #25234d;
+  font-size: 4rem;
+  font-weight: 400px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 66px;
+  text-align: left;
+  /* Text style for "Acompanhe" */
+  font-style: normal;
+  letter-spacing: -3.19px;
+  line-height: normal;
+  margin-top: 5cm;
+}
+div.SegundaParteTexto button{
+  display: flex;
+  width: 300px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: #ffe327;
+  border-color: transparent;
+  margin-left: 3.3cm;
+}
+div.SegundaParteTexto button img {
+  padding: 5px;
+}
+div.SegundaParteTexto h4{
+  font-size: 1.4rem;
+  font-family: "Nexa";
+  color: #190e99;
+  align-self: center;
+}
+
+
+/*******************/
+
+/********** Terceira Parte ******/
+section#SobreOTrabalho {
+  background-image: url(../assets/background20_invert.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+article.TerceiraParte{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+article.TerceiraParte div {
+  font-size:4.0rem;
+  float:right;
+  width:50%;
+}  
+div.TerceiraParteIMG img{
+  width: 100%;
+}
+div.TerceiraParteTexto h1{
+  color: #25234d;
+  font-family: "Nexa";
+  font-size: 5rem;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 66px;
+  text-align: left;
+  /* Text style for "Sobre  , m" */
+  font-style: normal;
+  letter-spacing: -3.19px;
+  line-height: normal;
+}
+div.TerceiraParteTexto p {
+  color: #25234d;
+font-family: NexaLight;
+font-size: 1.6rem;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 36px;
+text-align: left;
+/* Text style for "Aqui vai u" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+div.TerceiraParteTexto button {
+  font-family: "nexa";
+  height: 40px;
+  width: 120px;
+  border: transparent;
+  border-radius: 34px;
+  background-color: #ffe327; 
+}
+
+/*******************/
+
+/********** Quarta Parte ******/
+section#Noticias {
+  background-image: url(../assets/noticias.png);
+  background-size:cover;
+  width: 100%;
+  padding-top: 10px;
+}
+
+article.QuartaParte{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+article.QuartaParte h1{
+  font-size: 4.0rem;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Nexa";
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 66px;
+  text-transform: uppercase;
+/* Text style for "DEPOIMENTO" */
+font-style: normal;
+letter-spacing: -1px;
+line-height: normal;
+margin-bottom: 10px;
+}
+article.QuartaParte p{
+margin-bottom: 1rem;
+  color: #ffffff;
+font-family: "NexaLight";
+font-size: 1.6rem;
+font-weight: 400;
+font-style: normal;
+word-spacing: -0.4px;
+letter-spacing: -2px;
+line-height: normal;
+text-align: center;
+text-transform: uppercase;
+/* Text style for "O que fala" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+margin-bottom: 15px;
+}
+
+article.QuartaParte div {
+  font-size: 5.0rem;
+  text-align: center;
+}
+
+
+
+
+/*******************/
+
+/********** Terceira Parte ******/
+section#SobreOTrabalho {
+  background-color: beige;
+  background-size:cover;
+}
+article.TerceiraParte{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+article.TerceiraParte div {
+  font-size: 4.0rem;
+  float:right;
+  width:50%;
+}
+/********** Quinta Parte ******/
+section#Contato {
+  background-image: url(../assets/background20_invert.png);
+  background-size:cover;
+  size-adjust: unset;
+  
+}
+article.QuintaParte{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+div.QuintaParteTexto{
+  
+}
+
+div.QuintaParteTexto h1 {
+  font-size: 2.0rem;
+  float:left;
+  width: 100%;
+  color: #6422db;
+  font-family: "NexaLight";
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 2px;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+div.QuintaParteTexto h2{
+  color: #25234d;
+  font-family: "Nexa";
+  font-size: 3.5rem;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 55.12px;
+  text-align: left;
+  /* Text style for "Tem dúvida" */
+  font-style: normal;
+  letter-spacing: -3.19px;
+  line-height: normal;
+}
+
+div.QuintaParteForm {
+  size: 50px;
+  width:100%;
+  margin-left: 0;
+  
+}
+form{
+  width: 100%;
+  height: 450px;
+  margin-left: 4%;
+  position: relative  
+}
+input {
+  font-size: 1.6rem;
+  width: 375px;
+  height: 25px;
+}
+
+textarea{
+  font-size: 1.6rem;
+  width: 375px;
+  height: 200px;
+}
+
+
+/*******ainda não descobri como aumentar o tamanho do formulário*********/
+/*******************/
+
+section#footer{
+  background-image: url(../assets/Bg_footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  
+}
+
+div.logofooter{
+  font-family: "nexa";
+  font-size: 1.6rem;
+  text-align: center;
+  color: white;
+}
+/*slider*/
+#slider {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width: 73rem;
+  height: 32rem;
+  border: transparent;
+  background-color: #ffffff;
+  width: 600px;
+  max-width: 100%;
+  text-align: center;
+}
+#slider input[type=radio] {
+  display: none;
+}
+#slider label {
+  cursor:pointer;
+  text-decoration: none;
+}
+#slides {
+  padding: 1rem;
+  background: #fff;
+  z-index: 1;
+}
+#overflow {
+  width: 100%;
+  overflow: hidden;
+}
+#slide1:checked ~ #slides .inner {
+  margin-left: 0;
+}
+#slide2:checked ~ #slides .inner {
+  margin-left: -100%;
+}
+#slide3:checked ~ #slides .inner {
+  margin-left: -200%;
+}
+#slide4:checked ~ #slides .inner {
+  margin-left: -300%;
+}
+#slides .inner {
+  transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  width: 400%;
+  line-height: 0;
+  height: 300px;
+}
+#slides .slide {
+  width: 25%;
+  float:left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+}
+#slides .slide_1 {
+  background: #00171F;
+}
+#slides .slide_2 {
+  background: #003459;
+}
+#slides .slide_3 {
+  background: #007EA7;
+}
+#slides .slide_4 {
+  background: #00A8E8;
+}
+#controls {
+  margin: -180px 0 0 0;
+  width: 100%;
+  height: 50px;
+  z-index: 3;
+  position: relative;
+}
+#controls label {
+  transition: opacity 0.2s ease-out;
+  display: none;
+  width: 50px;
+  height: 50px;
+  opacity: .4;
+}
+#controls label:hover {
+  opacity: 1;
+}
+#slide1:checked ~ #controls label:nth-child(2),
+#slide2:checked ~ #controls label:nth-child(3),
+#slide3:checked ~ #controls label:nth-child(4),
+#slide4:checked ~ #controls label:nth-child(1) {
+  background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+  float:right;
+  margin: 0 -50px 0 0;
+  display: block;
+}
+#slide1:checked ~ #controls label:nth-last-child(2),
+#slide2:checked ~ #controls label:nth-last-child(3),
+#slide3:checked ~ #controls label:nth-last-child(4),
+#slide4:checked ~ #controls label:nth-last-child(1) {
+  background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+  float:left;
+  margin: 0 0 0 -50px;
+  display: block;
+}
+#bullets {
+  margin: 70px 0 0;
+  text-align: center;
+}
+#bullets label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius:100%;
+  background: #ccc;
+  margin: 0;
+}
+#slide1:checked ~ #bullets label:nth-child(1),
+#slide2:checked ~ #bullets label:nth-child(2),
+#slide3:checked ~ #bullets label:nth-child(3),
+#slide4:checked ~ #bullets label:nth-child(4) {
+  background: #444;
+}
+@media screen and (max-width: 900px) {
+  #slide1:checked ~ #controls label:nth-child(2),
+  #slide2:checked ~ #controls label:nth-child(3),
+  #slide3:checked ~ #controls label:nth-child(4),
+  #slide4:checked ~ #controls label:nth-child(1),
+  #slide1:checked ~ #controls label:nth-last-child(2),
+  #slide2:checked ~ #controls label:nth-last-child(3),
+  #slide3:checked ~ #controls label:nth-last-child(4),
+  #slide4:checked ~ #controls label:nth-last-child(1) {
+    margin: 0;
+  }
+  #slides {
+    max-width: calc(100% - 140px);
+    margin: 0 auto;
+  }
+}
+
+/*slider*/

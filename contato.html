@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_cadastro.css">
+    <title>Gama Pet</title>
+</head>
+
+<body>
+    <div>
+        <h1>Gama Pet</h1>
+    </div>
+
+    <div class="pai">
+        <div class="filho">
+
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="./index.html">Home</a> </li>
+                <li><a href="./cadastro.html">Cadastro</a></li>            
+                <li><a href="./servicos.html">Serviços</a></li>
+                <li><a href="./produtos.html">Produtos</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <p></p>
+    <p></p>
+    <p></p>
+
+    <center>
+    <form action="formulario" method="post">
+
+        E-mail:<br>
+        <input type="text" name="email"><br><br>
+  
+      <p></p>
+
+      Login:<br>
+      <input type="text" name="login"><br><br>
+
+        <p></p>
+
+        Telefone:<br>
+        <input type="text" name="telefone"><br><br>
+
+        <div class="row">
+            <label class="required" for="mensagem">Mensagem:</label><br />
+            <textarea id="mensagem" class="input" name="mensagem" rows="7" cols="30"></textarea><br />
+            <span id="mensagem_validacao" class="erro_mensagem"></span>
+          </div>
+
+
+      <input type="submit" value="Enviar">
+  
+    </form>
+    </center>
+
+</body>
